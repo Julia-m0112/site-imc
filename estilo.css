@@ -1,0 +1,28 @@
+
+
+h1 {
+    color: red;
+}
+
+#inputIdade {
+    background-color: rgb(204, 204, 204);
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+
+}
+
+button {
+    padding: 10px;
+    
+
+}
+
+#resultado {
+    margin-top: 20px;
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    background-color: gray;
+}
