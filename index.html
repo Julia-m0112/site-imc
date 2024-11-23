@@ -10,16 +10,22 @@
 
 </head>
 <body>
-    <h1>IMC</h1>
-   
-    <form action="">
-        <label for="">Idade</label>
-        <input id="inputIdade" type="text" placeholder="Digite sua idade">
-        <button id="btnOk">Ok</button>
-    </form>
 
-    <div id="resultado"></div>
+    <div class="container">
 
+        <h1>Calculadora de IMC</h1>
+        <form class="form-container">
+            <label for="">Altura(M)</label>
+            <input id="inputAltura" type="number" placeholder="Digite sua altura">
+            
+            <label for="">Peso(KG)</label>
+            <input id="inputPeso" type="number" placeholder="Digite seu Peso"> 
+            
+            <div id="resultado"></div>
+            <button id="btnCalcular">Calcular</button>
+        </form>
+        
+    </div>
 
     <script src="./script.js"></script>
 </body>
