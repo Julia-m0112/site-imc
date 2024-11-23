@@ -29,7 +29,7 @@ body {
 button {
     padding: 1rem;
     border-radius: 0.5rem;
-    background-color: rgba(35, 129, 229, 0.989);
+    background-color: #2381e5fc;
     color: white;
     border: none;
     font-family: "Poppins", sans-serif;
